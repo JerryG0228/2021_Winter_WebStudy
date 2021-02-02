@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(255, 159, 122);
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+img{
+    display:block;
+}
+p{
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+}
+p.a{
+    font-size:100px;
+    text-align:center;
+}
+p.b{
+    font-size:80px;
+    text-align:center;
+}
+p.c{
+    font-size:50px;
+    text-align:center;
+}
+table{
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    border-collapse: collapse;
+    width:900px;
+    height:210px;
+    table-layout: fixed;
+    margin:0 auto;
+}
+td{
+    text-align:center;
+    font-size:50px;
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    border-bottom:5px solid #ffffff;
+}

@@ -1,0 +1,41 @@
+body{
+    font-family: 'Black Han Sans', sans-serif;
+}
+.container{
+    position:fixed;
+    padding:10px;
+    top:0;
+    left:0;
+    right:0;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+}
+.item{
+    padding:10px;
+    background-color:rgb(0, 0, 0);
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+}
+.login{
+    margin-left:auto;
+}
+.text1{
+    text-align:center;
+    font-size: 50px;
+}
+.box{
+    text-align: center;
+    color:white;
+    font-size:35px;
+    background-color: rgb(85, 82, 82);
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.bottom{
+    background-color: rgb(51, 48, 48);
+    color:rgb(105, 105, 105);
+    font-size:25px;
+    text-align: center;
+}

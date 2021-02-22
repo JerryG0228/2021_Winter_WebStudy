@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Click Box</title>
+    </head>
+    <body>
+        <h1 id="beginner">I was a Web beginner.</h1>
+        <button id="master" type="button">Study!</button>
+
+        <script>
+            let phrase=document.getElementById('beginner')
+            let study=document.getElementById('master')
+            study.addEventListener('click',change)
+            function change(){
+                phrase.innerText='Now, I am a Web Master!'
+            }
+        </script>
+    </body>
+</html>
